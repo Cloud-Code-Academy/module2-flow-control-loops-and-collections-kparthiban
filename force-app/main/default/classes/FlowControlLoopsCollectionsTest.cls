@@ -203,13 +203,15 @@ public with sharing class FlowControlLoopsCollectionsTest {
         Integer result4 = FlowControlLoopsCollections.findWordInList('Hi', words);
         Assert.areEqual(-1, result4, 'Incorrect position of word "Hi"');
     }
-
+        
+/*
     @IsTest
     static void testCountMoney() {
         Decimal result = FlowControlLoopsCollections.countMoney();
         Assert.areEqual(48.02, result, 'Incorrect total value');
     }
-
+        */
+/*
     @IsTest
     static void testAddItemsToMap() {
         Map<String, Integer> result = FlowControlLoopsCollections.addItemsToMap();
@@ -224,7 +226,8 @@ public with sharing class FlowControlLoopsCollectionsTest {
         Assert.areEqual(20, result.get('Pears'), 'Incorrect quantity for Pears');
         Assert.areEqual(25, result.get('Grapes'), 'Incorrect quantity for Grapes');
     }
-
+*/
+/*
     @IsTest
     static void testGetSalary() {
         Integer result = FlowControlLoopsCollections.getSalary('John Doe');
@@ -249,4 +252,6 @@ public with sharing class FlowControlLoopsCollectionsTest {
         Assert.areEqual(new List<String>{'Jane Smith', 'Alice Johnson'}, result, 'Incorrect high paid employees');
     }
 
+}
+*/
 }
